@@ -1,0 +1,8 @@
+{
+  "name": "promised-node",
+  "main": "src/index.js",
+  "typescript": {
+    "definition": "promised-node.d.ts"
+  },
+  "version": "0.0.1"
+}

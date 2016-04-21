@@ -1,0 +1,32 @@
+{
+    "version": "1.6",
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "filesGlob": [
+        "*.ts",
+        "typings/**/*.d.ts"
+    ],
+    "files": [
+        "fs.ts",
+        "index.ts",
+        "promised-node.d.ts",
+        "replace.ts",
+        "util.ts",
+        "typings/bluebird/bluebird.d.ts",
+        "typings/es6.d.ts",
+        "typings/node/node.d.ts"
+    ],
+    "exclude": []
+}
